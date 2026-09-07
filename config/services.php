@@ -14,10 +14,6 @@ return [
     |
     */
 
-    'tmdb' => [
-        'key' => env('TMDB_API_KEY'),
-    ],
-
     'postmark' => [
         'key' => env('POSTMARK_API_KEY'),
     ],
@@ -37,6 +33,10 @@ return [
             'bot_user_oauth_token' => env('SLACK_BOT_USER_OAUTH_TOKEN'),
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
+    ],
+
+    'tmdb' => [
+        'key' => env('TMDB_API_KEY'),
     ],
 
 ];
